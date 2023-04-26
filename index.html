@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your dream villa">
+    <title>eVilla</title>   
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo-image-container" src="./assets/logo.svg" alt="Evilla">
+        <ul class="menu">
+            <li><a class="menu-item" href="#">Home</a></li>
+            <li><a class="menu-item" href="#about-section">About</a></li>
+            <li><a class="menu-item" href="#destinations">House tours</a></li>
+            <li><a class="menu-item" href="#about-sectionfooter">Contact</a></li>
+            <li><button  class="menu-item primary-yellow"> Book a meeting </button></li>
+        </ul>
+    </nav>
+    <section id="hero-section grid" class="hero-section grid">
+        <div class="login-hero">
+            <div class="hero-text hero-image-dots">
+                <h3>Find your dream home today!</h3>
+                <p>Log in and book a house tour with our real estate agent!</p>
+            </div>
+            <div>
+                <label for="login_input">Login</label>
+                <input id="login_input" type="text" class="login-container" name="login_input">
+            </div>
+            <div>
+                <label for="password_input">Password</label>
+                <input id="password_input" type="text" class="login-container" name="password_input">
+                <ul class="login-link">
+                    <li><p> No account? <a class="copy-yellow" href="#">Register</a></p></li>
+                    <li><a class="basic-text" href="#">Forgot password</a></li>
+                </ul>
+            </div>
+            <button class="primary-yellow-centered "> Login</button>
+        </div>
+        <img class="hero-image" src="./assets/hero image.png" alt="Hero house">
+    </section>
+    <section id="about-section" class="about-section grid">
+        <div class="about-text about-dots">
+            <h3 class="about-text about-image">At Evilla we help you turn the key to your future</h3>
+        </div>
+        <div class="about-boxes">
+            <div class="about-left-boxes">
+                <article class="about-box">
+                    <h2>Expertise</h2>
+                    <p class="about-text">Our real estate company has a team of highly skilled professionals who possess extensive knowledge of the real estate market, ensuring that our clients receive the best possible advice and guidance.</p>
+                </article>
+                <article class="about-box">
+                    <h2>Trustworthy</h2>
+                    <p class="about-text">We have built a reputation of being a trustworthy real estate company that operates with honesty, transparency, and integrity. Our clients can rely on us to always act in their best interests.</p>
+                </article>
+            </div>
+            <div class="about-right-boxes">
+                <article class="about-box">
+                    <h2>Personalized Service</h2>
+                    <p class="about-text">We understand that each client has unique needs and preferences, which is why we provide personalized service that is tailored to meet individual requirements.</p>
+                </article>
+                <article class="about-box">
+                    <h2>Exceptional Results</h2>
+                    <p class="about-text">We have a track record of achieving exceptional results for our clients, whether it's finding the perfect home, securing a profitable investment property, or selling a property at the best possible price. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations-section grid ">
+        <h3 class="black destinations-text">Book a house tour to find your dream place!</h3>
+        <article class="card" type="destination" mode="vertical">
+            <div class="destination-image-container"  mode="vertical">
+                <img class="destination-image" src="./assets/house 1.jpg" alt="Athens">
+            </div>
+            <div class="destination-content">
+                <div class="destination-card-header">
+                    <p class="dark"><i class="fa fa-bed" aria-hidden="true"></i>  4 bedrooms</p>
+                    <p class="dark">South Bridge Avenue 64</p>
+                </div>
+                <p class="dark">With ample natural light and breathtaking views of the surrounding landscape, this is an opportunity to own a truly exceptional property in a prime location.</p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">$530 000</p>
+                    <button class="primary-purple" type="submit">Book a meeting</button>
+                </div>
+            </div>
+        </article>
+        
+        <article class="card" mode="horizontal" type="destination">
+            <div class="destination-image-container" mode="horizontal">
+                <img  class="destination-image" mode="horizontal" src="./assets/house 2.jpg" alt="Bali">
+            </div>
+            <div class="destination-content">   
+                <div class="destination-card-header">
+                    <p class="dark"><i class="fa fa-bed" aria-hidden="true"></i>  3 bedrooms</p>
+                    <p class="dark">Palm Springs 256</p>
+                </div>
+                <p class="dark">With high-end finishes, and state-of-the-art technology, this stunning home offers the perfect blend of luxury and functionality</p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">$490 000</p>
+                    <button class="primary-purple" type="submit">Book a meeting</button>
+                </div>
+            </div>
+        </article>
+    
+        <article class="card" mode="horizontal" type="destination">
+            <div class="destination-image-container" mode="horizontal">
+                <img  class="destination-image" mode="horizontal" src="./assets/house 3.jpg" alt="Mallorca">
+            </div>
+            <div class="destination-content">
+                <div class="destination-card-header">
+                    <p class="dark"><i class="fa fa-bed" aria-hidden="true"></i>  4 bedrooms</p>
+                    <p class="dark">Rock Valley 512</p>
+                </div>
+                <p class="dark">Enjoy spacious, light-filled rooms that flow seamlessly together, creating an environment that is both inviting and awe-inspiring.</p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">$570 000</p>
+                    <button class="primary-purple" type="submit">Book a meeting</button>
+                </div>
+            </div>
+        </article>
+    
+        <article class="card" mode="vertical" type="destination">
+            <div class="destination-image-container" mode="vertical">
+                <img  class="destination-image" src="./assets/house 4.jpg" alt="Cuba">
+            </div>  
+            <div class="destination-content">
+                <div class="destination-card-header">
+                    <p class="dark"><i class="fa fa-bed" aria-hidden="true"></i>  3 bedrooms</p>
+                    <p class="dark">Grapevine Street 128</p>
+                </div>
+                <p class="dark">This breathtaking modern house for sale boasts an open-concept layout, sleek finishes, and expansive windows that offer stunning views of the surrounding landscape</p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">$475 000</p>
+                    <button class="primary-purple" type="submit">Book a meeting</button>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <section id="about-sectionfooter" class="about-sectionfooter grid">
+        <div class="about-textfooter ">
+            <h3 class="black">Turn your dreams  of owning a home into a reality.</h3>
+            <p class="black"> Contact us today to learn more about our services and how we can assist you in all your real estate needs.</p>
+                <button class="primary-orange" type="submit">
+                    Email us!
+                </button>
+        </div>
+        <footer class="contact-details-container">
+            <div class="footer-image">
+                    <div class="image-container">
+                        <img src="./assets/footer 1.jpg" alt="Picture of a sunset">
+                        <img src="./assets/footer 2.jpg" alt="Picture of a beach">
+                    </div>
+                </div>
+        <ul class="contact-details">
+            <li><i class="fa fa-map-marker"></i>address</li>
+            <li><i class="fa fa-phone"></i>telephone</li>
+        </ul>
+        </footer>
+    </section>
+    
+</body>
+</html> 
