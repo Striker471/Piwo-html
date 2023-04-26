@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery.js"></script>
+    <title>TODO list</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="title">
+        <img src="list.svg" class="list-icon" />
+        <h2>My TODO list</h2>
+      </div>
+      <div class="add-task">
+        <input type="text" class="input-field" />
+        <button class="add-btn btn">Add task</button>
+      </div>
+      <ul class="todo-list list" index="todo-list">
+
+      </ul>
+    </section>
+    <section class="container">
+      <div class="title">
+        <img class="list-icon" src="trash-bin.svg" />
+        <h2>Trash</h2>
+      </div>
+      <ul id="trash-list" class="list"></ul>
+    </section>
+    <section id="modal-window" class="hidden">
+      <div class="modal-container">
+        <p>Are you sure tyou want to delete this task?</p>
+        <div class="modal-buttons">
+          <button id="yes-btn" class="btn">Yes</button>
+          <button id="no-btn" class="btn">No</button>
+        </div>
+      </div>
+    </section>s
+    <div id="overlay" class="hidden"></div>
+  </body>
+  <script src="script3.js"></script>
+</html>
+
