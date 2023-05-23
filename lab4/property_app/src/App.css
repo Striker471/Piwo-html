@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: white;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+  list-style-type: none;
+  align-items: center;
+}
+
+.menu-item {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .navbar {
+  background-color: #333;
+  color: #fff;
+}

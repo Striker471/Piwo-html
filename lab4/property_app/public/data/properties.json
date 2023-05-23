@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "city": "Warszawa",
+      "bedrooms": 2,
+      "description": "Przytulne mieszkanie",
+      "price": 500000,
+      "email": "przykadlowy1@gmail.com"
+    },
+    {
+      "id": 2,
+      "city": "Kraków",
+      "bedrooms": 3,
+      "description": "Duże mieszkanie",
+      "price": 40000,
+      "email": "przykadlowy2@gmail.com"
+    },
+    {
+        "id": 3,
+        "city": "Wrocław",
+        "bedrooms": 5,
+        "description": "Potężne mieszkanie",
+        "price": 300000,
+        "email": "przykadlowy3@gmail.com"
+      },
+      {
+        "id": 4,
+        "city": "Wrocław",
+        "bedrooms": 7,
+        "description": "Duże mieszkanie",
+        "price": 900000,
+        "email": "przykadlowy4@gmail.com"
+      },
+      {
+        "id": 5,
+        "city": "Gdańsk",
+        "bedrooms": 2,
+        "description": "Genialne",
+        "price": 40000,
+        "email": "przykadlowy5@gmail.com"
+      },
+      {
+        "id": 6,
+        "city": "Moskwa",
+        "bedrooms": 6,
+        "description": "Dziwne",
+        "price": 60000,
+        "email": "przykadlowy6@gmail.com"
+      },
+      {
+        "id": 7,
+        "city": "Berlin",
+        "bedrooms": 3,
+        "description": "Śliczne",
+        "price": 800,
+        "email": "przykadlowy7@gmail.com"
+      },
+      {
+        "id": 8,
+        "city": "Łódź",
+        "bedrooms": 3,
+        "description": "Zwariowane",
+        "price": 123123,
+        "email": "przykadlowy8@gmail.com"
+      },
+      {
+        "id": 9,
+        "city": "Sosnowiec",
+        "bedrooms": 2,
+        "description": "Duże mieszkanie",
+        "price": 532000,
+        "email": "przykadlowy9@gmail.com"
+      },
+      {
+        "id": 10,
+        "city": "Zamość",
+        "bedrooms": 1,
+        "description": "Duże mieszkanie",
+        "price": 743200,
+        "email": "przykadlowy10@gmail.com"
+      }
+  ]
