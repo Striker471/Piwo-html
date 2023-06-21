@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo
+    hostname: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: users
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodbdata:/data/db
+
+  backend:
+    build: ./backend
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - 5000:5000
+    depends_on:
+      - mongo
+
+  frontend:
+    build: ./frontend
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+
+volumes:
+  mongodbdata:
