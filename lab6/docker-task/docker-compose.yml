@@ -10,9 +10,7 @@ services:
       MONGO_INITDB_DATABASE: users
     ports:
       - 27017:27017
-    volumes:
-      - mongodbdata:/data/db
-
+      
   backend:
     build: ./backend
     environment:
@@ -28,6 +26,3 @@ services:
       - 3000:3000
     depends_on:
       - backend
-
-volumes:
-  mongodbdata:
